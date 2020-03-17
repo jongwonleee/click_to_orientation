@@ -7,6 +7,7 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
                 intent.setData(Uri.parse("package:" + this.getPackageName()));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Toast.makeText(this,getString(R.string.help),Toast.LENGTH_LONG)
                 startActivity(intent);
             }
         }
@@ -29,7 +31,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun changeOrientation(){
         val orientation = resources.configuration.orientation
-        Log.i("!!", "$orientation")
         if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
             Settings.System.putInt(
                 contentResolver,
@@ -52,7 +53,11 @@ class MainActivity : AppCompatActivity() {
                 changeOrientation()
             }else
             {
-                finish()
+                val intent = Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
+                intent.setData(Uri.parse("package:" + this.getPackageName()));
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Toast.makeText(this,getString(R.string.help),Toast.LENGTH_LONG)
+                startActivity(intent);
             }
         }
     }

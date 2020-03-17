@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Click To Rotate Screen</string>
+    <string name="help">Please allow modifying system settings</string>
 </resources>
