@@ -340,10 +340,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49698794" visible="true" weight="0.32905984" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49698794" visible="true" weight="0.32905984" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.50301206" side_tool="true" visible="true" weight="0.32905984" />
@@ -354,7 +353,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32244897" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32244897" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.32857144" />
       <window_info anchor="bottom" id="Android Profiler" order="6" />
