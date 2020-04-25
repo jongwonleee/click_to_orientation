@@ -1,27 +1,33 @@
 # click_to_orientation
-## 세상에서 제일 간편한 화면 회전기, 킹갓 화면회전기!!
+---------------------------
 
-### version
-Android Studio 3.5-1
-Kotlin version 1.3.31
-compile sdk version 29
+### 1. Project
+- Click this application to rotate your phone right away
+- If you click the icon, phone will be rotated to other orientation
 
-### copyrights
-all copyrights belong to team Itaewon of Software Maestro
+---------------------------
+### 2. Stack
+- Language: Kotlin version 1.3.6
+- Firebase Crashlystics
+- UI less application
 
-### contacts
-distributed by Jongwon Lee
-you can contact me by email: jong12em@naver.com
+---------------------------
+### 3. Framework
+- Android Studio 3.5-1  
+- compile sdk version 29  
 
-### bugs
-please check the authority right or application will get in crash
+---------------------------
+### 4. Download
+- [Play Store](https://play.google.com/store/apps/details?id=com.clicktoorientation)
 
-*****
-
-### how to use
+---------------------------
+### 5. How to Use
 > 1. install the app from the link below
 > 2. set phone orientation fixed
 > 3. use shortcut to excute the app when you need to rotate the phone during using other apps
 > * doesn't work if the app you use doesn't support all the orientations
 
-### [download](https://play.google.com/store/apps/details?id=com.clicktoorientation)
+---------------------------
+### 6. Contacts
+- distributed by Jongwon Lee  
+- email: jong12em@naver.com
